@@ -1,0 +1,26 @@
+.main__inner{
+    width: calc(100% - 64px);
+    padding: 32px;    
+    position: relative;
+    background-color: #f9f9f9;
+   
+    .crypto-exchange{
+        width: 868px;
+        margin: 0 auto;
+        padding: 10px 0 0;
+
+        .crypto-exchange__title{
+            font-size: 1.5rem;
+            font-weight: 600;
+            margin-bottom: 30px;            
+            display: flex;            
+            align-items: center;
+            
+            img{
+                margin-right: 12px;
+                width: 1em;
+            }            
+        }
+    }
+    
+}

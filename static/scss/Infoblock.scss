@@ -1,0 +1,21 @@
+.info__box{
+    width: calc(100% - 50px);
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    border: 1px solid #e1e4e8;   
+ 
+    p{
+        font-size: 18px;
+    }
+}
+
+.info__box.red{
+    background:#fdcaca;
+}
+
+.info__box.green{
+    background:#e6ffca;
+}

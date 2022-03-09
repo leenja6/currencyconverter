@@ -1,0 +1,43 @@
+@media screen and (max-width: 932px) {
+  .main__inner{
+    .crypto-exchange{
+        width: 100%;
+
+        .calculator {
+            margin-left: 0px;
+            width: 100%;
+            display: flex;
+            justify-content: flex-start;
+            align-items: stretch;
+            flex-wrap: wrap;
+          }
+    }
+  }
+}
+
+@media screen and (max-width: 790px) {
+    .calculator__box {
+        width: calc(100% - 90px);
+        margin-left: 4px;
+        margin-right: 4px;
+        border-radius: 4px;
+        background-color: #ffffff;
+        border: 1px solid #e1e4e8;
+        padding: 40px;
+        margin-bottom: 8px;
+      }
+}
+
+@media screen and (max-width: 500px) {
+    .main__inner {
+        width: calc(100% - 20px);
+        padding: 10px;        
+    }
+
+    .calculator__box {
+        width: calc(100% - 42px);
+        margin-left: 0px;
+        margin-right: 0px;        
+        padding: 20px;        
+    }
+}
